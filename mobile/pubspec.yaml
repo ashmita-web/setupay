@@ -1,0 +1,45 @@
+name: offline_pay
+description: SetuPay — offline-first payments with an AI trust layer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.2.0
+  sqflite: ^2.3.0
+  flutter_secure_storage: ^9.0.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^4.0.0
+  connectivity_plus: ^5.0.2
+  intl: ^0.19.0
+  google_fonts: ^6.1.0
+  path_provider: ^2.1.1
+  path: ^1.9.0
+  uuid: ^4.2.1
+  shared_preferences: ^2.2.2
+  sqflite_common_ffi: ^2.4.0+2
+  sqflite_common_ffi_web: ^1.1.1
+  flutter_blue_plus: ^1.31.0
+  image_picker: ^1.0.7
+  pointycastle: ^3.9.1
+  convert: ^3.1.1
+  crypto: ^3.0.3
+  # ── Demo-day additions (Sept 13) ──
+  cryptography: ^2.7.0          # Feature B: Ed25519 device signing
+  speech_to_text: ^7.4.0        # Feature G: on-device Hindi STT (hi_IN)
+  permission_handler: ^12.0.0   # mic / camera rationale prompts
+  flutter_tts: ^4.2.5           # G3.5: offline Hindi confirmation readback
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
