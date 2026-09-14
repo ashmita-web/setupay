@@ -3,6 +3,7 @@
 **Offline-first payments with an AI trust layer.** *Setu* (सेतु) means "bridge" — SetuPay bridges the gap when the network drops. Payments work without internet via AI-assigned local credit limits, signed payment blobs, QR or BLE device-to-device transfer, and background sync when connectivity returns. It integrates with any UPI app (Paytm, PhonePe, GPay) as an additive SDK layer rather than replacing them.
 
 ---
+demo link: https://drive.google.com/file/d/1AgYQaQrR0VzaYNYvL42l0f-ToXDXFpln/view
 
 ## Table of Contents
 
